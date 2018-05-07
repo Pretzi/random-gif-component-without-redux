@@ -1,0 +1,3741 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<RandomGifs /> Should render as expected 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <RandomGifsComponent
+    category=""
+    error={false}
+    gifs={Array []}
+    loading={false}
+    notFound={false}
+    numberOfImages={3}
+    showNumberOfImages={true}
+    showTimer={true}
+    timer={10}
+/>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": <div
+        className="RandomGifsComponent__container"
+>
+        <h2
+                className="RandomGifsComponent__title"
+        >
+                Search Random Gifs
+        </h2>
+        <form
+                className="RandomGifsComponent__form"
+                onSubmit={[Function]}
+        >
+                <FormGroup
+                        label="Gif Category"
+                >
+                        <App.Input
+                                icon="pt-icon-tag"
+                                name="category"
+                                onChange={[Function]}
+                                placeholder="Tacos"
+                                type="string"
+                                value=""
+                        />
+                </FormGroup>
+                <FormGroup
+                        label="Number Of Images"
+                >
+                        <App.Input
+                                icon="pt-icon-media"
+                                name="numberOfImages"
+                                onChange={[Function]}
+                                placeholder="3"
+                                type="number"
+                                value={3}
+                        />
+                </FormGroup>
+                <FormGroup
+                        helperText="Time is in seconds"
+                        label="Timer"
+                >
+                        <App.Input
+                                icon="pt-icon-time"
+                                name="timer"
+                                onChange={[Function]}
+                                placeholder="10 seconds"
+                                type="number"
+                                value={10}
+                        />
+                </FormGroup>
+                <Blueprint2.Button
+                        intent="PRIMARY"
+                        large={true}
+                        onClick={[Function]}
+                        text="Search"
+                        type="submit"
+                />
+        </form>
+        <div
+                className="RandomGifsComponent__gif-container"
+        >
+                <RandomGifs
+                        gifs={Array []}
+                />
+        </div>
+</div>,
+      "className": "RandomGifsComponent",
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <h2
+            className="RandomGifsComponent__title"
+>
+            Search Random Gifs
+</h2>,
+          <form
+            className="RandomGifsComponent__form"
+            onSubmit={[Function]}
+>
+            <FormGroup
+                        label="Gif Category"
+            >
+                        <App.Input
+                                    icon="pt-icon-tag"
+                                    name="category"
+                                    onChange={[Function]}
+                                    placeholder="Tacos"
+                                    type="string"
+                                    value=""
+                        />
+            </FormGroup>
+            <FormGroup
+                        label="Number Of Images"
+            >
+                        <App.Input
+                                    icon="pt-icon-media"
+                                    name="numberOfImages"
+                                    onChange={[Function]}
+                                    placeholder="3"
+                                    type="number"
+                                    value={3}
+                        />
+            </FormGroup>
+            <FormGroup
+                        helperText="Time is in seconds"
+                        label="Timer"
+            >
+                        <App.Input
+                                    icon="pt-icon-time"
+                                    name="timer"
+                                    onChange={[Function]}
+                                    placeholder="10 seconds"
+                                    type="number"
+                                    value={10}
+                        />
+            </FormGroup>
+            <Blueprint2.Button
+                        intent="PRIMARY"
+                        large={true}
+                        onClick={[Function]}
+                        text="Search"
+                        type="submit"
+            />
+</form>,
+          <div
+            className="RandomGifsComponent__gif-container"
+>
+            <RandomGifs
+                        gifs={Array []}
+            />
+</div>,
+        ],
+        "className": "RandomGifsComponent__container",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Search Random Gifs",
+            "className": "RandomGifsComponent__title",
+          },
+          "ref": null,
+          "rendered": "Search Random Gifs",
+          "type": "h2",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <FormGroup
+                label="Gif Category"
+>
+                <App.Input
+                                icon="pt-icon-tag"
+                                name="category"
+                                onChange={[Function]}
+                                placeholder="Tacos"
+                                type="string"
+                                value=""
+                />
+</FormGroup>,
+              <FormGroup
+                label="Number Of Images"
+>
+                <App.Input
+                                icon="pt-icon-media"
+                                name="numberOfImages"
+                                onChange={[Function]}
+                                placeholder="3"
+                                type="number"
+                                value={3}
+                />
+</FormGroup>,
+              <FormGroup
+                helperText="Time is in seconds"
+                label="Timer"
+>
+                <App.Input
+                                icon="pt-icon-time"
+                                name="timer"
+                                onChange={[Function]}
+                                placeholder="10 seconds"
+                                type="number"
+                                value={10}
+                />
+</FormGroup>,
+              <Blueprint2.Button
+                intent="PRIMARY"
+                large={true}
+                onClick={[Function]}
+                text="Search"
+                type="submit"
+/>,
+            ],
+            "className": "RandomGifsComponent__form",
+            "onSubmit": [Function],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": <App.Input
+                  icon="pt-icon-tag"
+                  name="category"
+                  onChange={[Function]}
+                  placeholder="Tacos"
+                  type="string"
+                  value=""
+/>,
+                "label": "Gif Category",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "icon": "pt-icon-tag",
+                  "name": "category",
+                  "onChange": [Function],
+                  "placeholder": "Tacos",
+                  "type": "string",
+                  "value": "",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": <App.Input
+                  icon="pt-icon-media"
+                  name="numberOfImages"
+                  onChange={[Function]}
+                  placeholder="3"
+                  type="number"
+                  value={3}
+/>,
+                "label": "Number Of Images",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "icon": "pt-icon-media",
+                  "name": "numberOfImages",
+                  "onChange": [Function],
+                  "placeholder": "3",
+                  "type": "number",
+                  "value": 3,
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": <App.Input
+                  icon="pt-icon-time"
+                  name="timer"
+                  onChange={[Function]}
+                  placeholder="10 seconds"
+                  type="number"
+                  value={10}
+/>,
+                "helperText": "Time is in seconds",
+                "label": "Timer",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "icon": "pt-icon-time",
+                  "name": "timer",
+                  "onChange": [Function],
+                  "placeholder": "10 seconds",
+                  "type": "number",
+                  "value": 10,
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "intent": "PRIMARY",
+                "large": true,
+                "onClick": [Function],
+                "text": "Search",
+                "type": "submit",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+          ],
+          "type": "form",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <RandomGifs
+                gifs={Array []}
+/>,
+              false,
+              false,
+              false,
+            ],
+            "className": "RandomGifsComponent__gif-container",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "gifs": Array [],
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            false,
+            false,
+            false,
+          ],
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": <div
+          className="RandomGifsComponent__container"
+>
+          <h2
+                    className="RandomGifsComponent__title"
+          >
+                    Search Random Gifs
+          </h2>
+          <form
+                    className="RandomGifsComponent__form"
+                    onSubmit={[Function]}
+          >
+                    <FormGroup
+                              label="Gif Category"
+                    >
+                              <App.Input
+                                        icon="pt-icon-tag"
+                                        name="category"
+                                        onChange={[Function]}
+                                        placeholder="Tacos"
+                                        type="string"
+                                        value=""
+                              />
+                    </FormGroup>
+                    <FormGroup
+                              label="Number Of Images"
+                    >
+                              <App.Input
+                                        icon="pt-icon-media"
+                                        name="numberOfImages"
+                                        onChange={[Function]}
+                                        placeholder="3"
+                                        type="number"
+                                        value={3}
+                              />
+                    </FormGroup>
+                    <FormGroup
+                              helperText="Time is in seconds"
+                              label="Timer"
+                    >
+                              <App.Input
+                                        icon="pt-icon-time"
+                                        name="timer"
+                                        onChange={[Function]}
+                                        placeholder="10 seconds"
+                                        type="number"
+                                        value={10}
+                              />
+                    </FormGroup>
+                    <Blueprint2.Button
+                              intent="PRIMARY"
+                              large={true}
+                              onClick={[Function]}
+                              text="Search"
+                              type="submit"
+                    />
+          </form>
+          <div
+                    className="RandomGifsComponent__gif-container"
+          >
+                    <RandomGifs
+                              gifs={Array []}
+                    />
+          </div>
+</div>,
+        "className": "RandomGifsComponent",
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <h2
+              className="RandomGifsComponent__title"
+>
+              Search Random Gifs
+</h2>,
+            <form
+              className="RandomGifsComponent__form"
+              onSubmit={[Function]}
+>
+              <FormGroup
+                            label="Gif Category"
+              >
+                            <App.Input
+                                          icon="pt-icon-tag"
+                                          name="category"
+                                          onChange={[Function]}
+                                          placeholder="Tacos"
+                                          type="string"
+                                          value=""
+                            />
+              </FormGroup>
+              <FormGroup
+                            label="Number Of Images"
+              >
+                            <App.Input
+                                          icon="pt-icon-media"
+                                          name="numberOfImages"
+                                          onChange={[Function]}
+                                          placeholder="3"
+                                          type="number"
+                                          value={3}
+                            />
+              </FormGroup>
+              <FormGroup
+                            helperText="Time is in seconds"
+                            label="Timer"
+              >
+                            <App.Input
+                                          icon="pt-icon-time"
+                                          name="timer"
+                                          onChange={[Function]}
+                                          placeholder="10 seconds"
+                                          type="number"
+                                          value={10}
+                            />
+              </FormGroup>
+              <Blueprint2.Button
+                            intent="PRIMARY"
+                            large={true}
+                            onClick={[Function]}
+                            text="Search"
+                            type="submit"
+              />
+</form>,
+            <div
+              className="RandomGifsComponent__gif-container"
+>
+              <RandomGifs
+                            gifs={Array []}
+              />
+</div>,
+          ],
+          "className": "RandomGifsComponent__container",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Search Random Gifs",
+              "className": "RandomGifsComponent__title",
+            },
+            "ref": null,
+            "rendered": "Search Random Gifs",
+            "type": "h2",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <FormGroup
+                  label="Gif Category"
+>
+                  <App.Input
+                                    icon="pt-icon-tag"
+                                    name="category"
+                                    onChange={[Function]}
+                                    placeholder="Tacos"
+                                    type="string"
+                                    value=""
+                  />
+</FormGroup>,
+                <FormGroup
+                  label="Number Of Images"
+>
+                  <App.Input
+                                    icon="pt-icon-media"
+                                    name="numberOfImages"
+                                    onChange={[Function]}
+                                    placeholder="3"
+                                    type="number"
+                                    value={3}
+                  />
+</FormGroup>,
+                <FormGroup
+                  helperText="Time is in seconds"
+                  label="Timer"
+>
+                  <App.Input
+                                    icon="pt-icon-time"
+                                    name="timer"
+                                    onChange={[Function]}
+                                    placeholder="10 seconds"
+                                    type="number"
+                                    value={10}
+                  />
+</FormGroup>,
+                <Blueprint2.Button
+                  intent="PRIMARY"
+                  large={true}
+                  onClick={[Function]}
+                  text="Search"
+                  type="submit"
+/>,
+              ],
+              "className": "RandomGifsComponent__form",
+              "onSubmit": [Function],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "children": <App.Input
+                    icon="pt-icon-tag"
+                    name="category"
+                    onChange={[Function]}
+                    placeholder="Tacos"
+                    type="string"
+                    value=""
+/>,
+                  "label": "Gif Category",
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "icon": "pt-icon-tag",
+                    "name": "category",
+                    "onChange": [Function],
+                    "placeholder": "Tacos",
+                    "type": "string",
+                    "value": "",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "children": <App.Input
+                    icon="pt-icon-media"
+                    name="numberOfImages"
+                    onChange={[Function]}
+                    placeholder="3"
+                    type="number"
+                    value={3}
+/>,
+                  "label": "Number Of Images",
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "icon": "pt-icon-media",
+                    "name": "numberOfImages",
+                    "onChange": [Function],
+                    "placeholder": "3",
+                    "type": "number",
+                    "value": 3,
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "children": <App.Input
+                    icon="pt-icon-time"
+                    name="timer"
+                    onChange={[Function]}
+                    placeholder="10 seconds"
+                    type="number"
+                    value={10}
+/>,
+                  "helperText": "Time is in seconds",
+                  "label": "Timer",
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "icon": "pt-icon-time",
+                    "name": "timer",
+                    "onChange": [Function],
+                    "placeholder": "10 seconds",
+                    "type": "number",
+                    "value": 10,
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "intent": "PRIMARY",
+                  "large": true,
+                  "onClick": [Function],
+                  "text": "Search",
+                  "type": "submit",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+            ],
+            "type": "form",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <RandomGifs
+                  gifs={Array []}
+/>,
+                false,
+                false,
+                false,
+              ],
+              "className": "RandomGifsComponent__gif-container",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "gifs": Array [],
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              false,
+              false,
+              false,
+            ],
+            "type": "div",
+          },
+        ],
+        "type": "div",
+      },
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;
+
+exports[`<RandomGifs /> Should render with Spinner 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <RandomGifsComponent
+    category=""
+    error={false}
+    gifs={Array []}
+    loading={true}
+    notFound={false}
+    numberOfImages={3}
+    showNumberOfImages={true}
+    showTimer={true}
+    timer={10}
+/>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": <div
+        className="RandomGifsComponent__container"
+>
+        <h2
+                className="RandomGifsComponent__title"
+        >
+                Search Random Gifs
+        </h2>
+        <form
+                className="RandomGifsComponent__form"
+                onSubmit={[Function]}
+        >
+                <FormGroup
+                        label="Gif Category"
+                >
+                        <App.Input
+                                icon="pt-icon-tag"
+                                name="category"
+                                onChange={[Function]}
+                                placeholder="Tacos"
+                                type="string"
+                                value=""
+                        />
+                </FormGroup>
+                <FormGroup
+                        label="Number Of Images"
+                >
+                        <App.Input
+                                icon="pt-icon-media"
+                                name="numberOfImages"
+                                onChange={[Function]}
+                                placeholder="3"
+                                type="number"
+                                value={3}
+                        />
+                </FormGroup>
+                <FormGroup
+                        helperText="Time is in seconds"
+                        label="Timer"
+                >
+                        <App.Input
+                                icon="pt-icon-time"
+                                name="timer"
+                                onChange={[Function]}
+                                placeholder="10 seconds"
+                                type="number"
+                                value={10}
+                        />
+                </FormGroup>
+                <Blueprint2.Button
+                        intent="PRIMARY"
+                        large={true}
+                        onClick={[Function]}
+                        text="Search"
+                        type="submit"
+                />
+        </form>
+        <div
+                className="RandomGifsComponent__gif-container"
+        >
+                <RandomGifs
+                        gifs={Array []}
+                />
+                <Blueprint2.Spinner />
+        </div>
+</div>,
+      "className": "RandomGifsComponent",
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <h2
+            className="RandomGifsComponent__title"
+>
+            Search Random Gifs
+</h2>,
+          <form
+            className="RandomGifsComponent__form"
+            onSubmit={[Function]}
+>
+            <FormGroup
+                        label="Gif Category"
+            >
+                        <App.Input
+                                    icon="pt-icon-tag"
+                                    name="category"
+                                    onChange={[Function]}
+                                    placeholder="Tacos"
+                                    type="string"
+                                    value=""
+                        />
+            </FormGroup>
+            <FormGroup
+                        label="Number Of Images"
+            >
+                        <App.Input
+                                    icon="pt-icon-media"
+                                    name="numberOfImages"
+                                    onChange={[Function]}
+                                    placeholder="3"
+                                    type="number"
+                                    value={3}
+                        />
+            </FormGroup>
+            <FormGroup
+                        helperText="Time is in seconds"
+                        label="Timer"
+            >
+                        <App.Input
+                                    icon="pt-icon-time"
+                                    name="timer"
+                                    onChange={[Function]}
+                                    placeholder="10 seconds"
+                                    type="number"
+                                    value={10}
+                        />
+            </FormGroup>
+            <Blueprint2.Button
+                        intent="PRIMARY"
+                        large={true}
+                        onClick={[Function]}
+                        text="Search"
+                        type="submit"
+            />
+</form>,
+          <div
+            className="RandomGifsComponent__gif-container"
+>
+            <RandomGifs
+                        gifs={Array []}
+            />
+            <Blueprint2.Spinner />
+</div>,
+        ],
+        "className": "RandomGifsComponent__container",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Search Random Gifs",
+            "className": "RandomGifsComponent__title",
+          },
+          "ref": null,
+          "rendered": "Search Random Gifs",
+          "type": "h2",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <FormGroup
+                label="Gif Category"
+>
+                <App.Input
+                                icon="pt-icon-tag"
+                                name="category"
+                                onChange={[Function]}
+                                placeholder="Tacos"
+                                type="string"
+                                value=""
+                />
+</FormGroup>,
+              <FormGroup
+                label="Number Of Images"
+>
+                <App.Input
+                                icon="pt-icon-media"
+                                name="numberOfImages"
+                                onChange={[Function]}
+                                placeholder="3"
+                                type="number"
+                                value={3}
+                />
+</FormGroup>,
+              <FormGroup
+                helperText="Time is in seconds"
+                label="Timer"
+>
+                <App.Input
+                                icon="pt-icon-time"
+                                name="timer"
+                                onChange={[Function]}
+                                placeholder="10 seconds"
+                                type="number"
+                                value={10}
+                />
+</FormGroup>,
+              <Blueprint2.Button
+                intent="PRIMARY"
+                large={true}
+                onClick={[Function]}
+                text="Search"
+                type="submit"
+/>,
+            ],
+            "className": "RandomGifsComponent__form",
+            "onSubmit": [Function],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": <App.Input
+                  icon="pt-icon-tag"
+                  name="category"
+                  onChange={[Function]}
+                  placeholder="Tacos"
+                  type="string"
+                  value=""
+/>,
+                "label": "Gif Category",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "icon": "pt-icon-tag",
+                  "name": "category",
+                  "onChange": [Function],
+                  "placeholder": "Tacos",
+                  "type": "string",
+                  "value": "",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": <App.Input
+                  icon="pt-icon-media"
+                  name="numberOfImages"
+                  onChange={[Function]}
+                  placeholder="3"
+                  type="number"
+                  value={3}
+/>,
+                "label": "Number Of Images",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "icon": "pt-icon-media",
+                  "name": "numberOfImages",
+                  "onChange": [Function],
+                  "placeholder": "3",
+                  "type": "number",
+                  "value": 3,
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": <App.Input
+                  icon="pt-icon-time"
+                  name="timer"
+                  onChange={[Function]}
+                  placeholder="10 seconds"
+                  type="number"
+                  value={10}
+/>,
+                "helperText": "Time is in seconds",
+                "label": "Timer",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "icon": "pt-icon-time",
+                  "name": "timer",
+                  "onChange": [Function],
+                  "placeholder": "10 seconds",
+                  "type": "number",
+                  "value": 10,
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "intent": "PRIMARY",
+                "large": true,
+                "onClick": [Function],
+                "text": "Search",
+                "type": "submit",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+          ],
+          "type": "form",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <RandomGifs
+                gifs={Array []}
+/>,
+              <Blueprint2.Spinner />,
+              false,
+              false,
+            ],
+            "className": "RandomGifsComponent__gif-container",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "gifs": Array [],
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {},
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            false,
+            false,
+          ],
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": <div
+          className="RandomGifsComponent__container"
+>
+          <h2
+                    className="RandomGifsComponent__title"
+          >
+                    Search Random Gifs
+          </h2>
+          <form
+                    className="RandomGifsComponent__form"
+                    onSubmit={[Function]}
+          >
+                    <FormGroup
+                              label="Gif Category"
+                    >
+                              <App.Input
+                                        icon="pt-icon-tag"
+                                        name="category"
+                                        onChange={[Function]}
+                                        placeholder="Tacos"
+                                        type="string"
+                                        value=""
+                              />
+                    </FormGroup>
+                    <FormGroup
+                              label="Number Of Images"
+                    >
+                              <App.Input
+                                        icon="pt-icon-media"
+                                        name="numberOfImages"
+                                        onChange={[Function]}
+                                        placeholder="3"
+                                        type="number"
+                                        value={3}
+                              />
+                    </FormGroup>
+                    <FormGroup
+                              helperText="Time is in seconds"
+                              label="Timer"
+                    >
+                              <App.Input
+                                        icon="pt-icon-time"
+                                        name="timer"
+                                        onChange={[Function]}
+                                        placeholder="10 seconds"
+                                        type="number"
+                                        value={10}
+                              />
+                    </FormGroup>
+                    <Blueprint2.Button
+                              intent="PRIMARY"
+                              large={true}
+                              onClick={[Function]}
+                              text="Search"
+                              type="submit"
+                    />
+          </form>
+          <div
+                    className="RandomGifsComponent__gif-container"
+          >
+                    <RandomGifs
+                              gifs={Array []}
+                    />
+                    <Blueprint2.Spinner />
+          </div>
+</div>,
+        "className": "RandomGifsComponent",
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <h2
+              className="RandomGifsComponent__title"
+>
+              Search Random Gifs
+</h2>,
+            <form
+              className="RandomGifsComponent__form"
+              onSubmit={[Function]}
+>
+              <FormGroup
+                            label="Gif Category"
+              >
+                            <App.Input
+                                          icon="pt-icon-tag"
+                                          name="category"
+                                          onChange={[Function]}
+                                          placeholder="Tacos"
+                                          type="string"
+                                          value=""
+                            />
+              </FormGroup>
+              <FormGroup
+                            label="Number Of Images"
+              >
+                            <App.Input
+                                          icon="pt-icon-media"
+                                          name="numberOfImages"
+                                          onChange={[Function]}
+                                          placeholder="3"
+                                          type="number"
+                                          value={3}
+                            />
+              </FormGroup>
+              <FormGroup
+                            helperText="Time is in seconds"
+                            label="Timer"
+              >
+                            <App.Input
+                                          icon="pt-icon-time"
+                                          name="timer"
+                                          onChange={[Function]}
+                                          placeholder="10 seconds"
+                                          type="number"
+                                          value={10}
+                            />
+              </FormGroup>
+              <Blueprint2.Button
+                            intent="PRIMARY"
+                            large={true}
+                            onClick={[Function]}
+                            text="Search"
+                            type="submit"
+              />
+</form>,
+            <div
+              className="RandomGifsComponent__gif-container"
+>
+              <RandomGifs
+                            gifs={Array []}
+              />
+              <Blueprint2.Spinner />
+</div>,
+          ],
+          "className": "RandomGifsComponent__container",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Search Random Gifs",
+              "className": "RandomGifsComponent__title",
+            },
+            "ref": null,
+            "rendered": "Search Random Gifs",
+            "type": "h2",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <FormGroup
+                  label="Gif Category"
+>
+                  <App.Input
+                                    icon="pt-icon-tag"
+                                    name="category"
+                                    onChange={[Function]}
+                                    placeholder="Tacos"
+                                    type="string"
+                                    value=""
+                  />
+</FormGroup>,
+                <FormGroup
+                  label="Number Of Images"
+>
+                  <App.Input
+                                    icon="pt-icon-media"
+                                    name="numberOfImages"
+                                    onChange={[Function]}
+                                    placeholder="3"
+                                    type="number"
+                                    value={3}
+                  />
+</FormGroup>,
+                <FormGroup
+                  helperText="Time is in seconds"
+                  label="Timer"
+>
+                  <App.Input
+                                    icon="pt-icon-time"
+                                    name="timer"
+                                    onChange={[Function]}
+                                    placeholder="10 seconds"
+                                    type="number"
+                                    value={10}
+                  />
+</FormGroup>,
+                <Blueprint2.Button
+                  intent="PRIMARY"
+                  large={true}
+                  onClick={[Function]}
+                  text="Search"
+                  type="submit"
+/>,
+              ],
+              "className": "RandomGifsComponent__form",
+              "onSubmit": [Function],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "children": <App.Input
+                    icon="pt-icon-tag"
+                    name="category"
+                    onChange={[Function]}
+                    placeholder="Tacos"
+                    type="string"
+                    value=""
+/>,
+                  "label": "Gif Category",
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "icon": "pt-icon-tag",
+                    "name": "category",
+                    "onChange": [Function],
+                    "placeholder": "Tacos",
+                    "type": "string",
+                    "value": "",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "children": <App.Input
+                    icon="pt-icon-media"
+                    name="numberOfImages"
+                    onChange={[Function]}
+                    placeholder="3"
+                    type="number"
+                    value={3}
+/>,
+                  "label": "Number Of Images",
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "icon": "pt-icon-media",
+                    "name": "numberOfImages",
+                    "onChange": [Function],
+                    "placeholder": "3",
+                    "type": "number",
+                    "value": 3,
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "children": <App.Input
+                    icon="pt-icon-time"
+                    name="timer"
+                    onChange={[Function]}
+                    placeholder="10 seconds"
+                    type="number"
+                    value={10}
+/>,
+                  "helperText": "Time is in seconds",
+                  "label": "Timer",
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "icon": "pt-icon-time",
+                    "name": "timer",
+                    "onChange": [Function],
+                    "placeholder": "10 seconds",
+                    "type": "number",
+                    "value": 10,
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "intent": "PRIMARY",
+                  "large": true,
+                  "onClick": [Function],
+                  "text": "Search",
+                  "type": "submit",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+            ],
+            "type": "form",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <RandomGifs
+                  gifs={Array []}
+/>,
+                <Blueprint2.Spinner />,
+                false,
+                false,
+              ],
+              "className": "RandomGifsComponent__gif-container",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "gifs": Array [],
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {},
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              false,
+              false,
+            ],
+            "type": "div",
+          },
+        ],
+        "type": "div",
+      },
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;
+
+exports[`<RandomGifs /> Should render with error message 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <RandomGifsComponent
+    category=""
+    error={true}
+    gifs={Array []}
+    loading={false}
+    notFound={false}
+    numberOfImages={3}
+    showNumberOfImages={true}
+    showTimer={true}
+    timer={10}
+/>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": <div
+        className="RandomGifsComponent__container"
+>
+        <h2
+                className="RandomGifsComponent__title"
+        >
+                Search Random Gifs
+        </h2>
+        <form
+                className="RandomGifsComponent__form"
+                onSubmit={[Function]}
+        >
+                <FormGroup
+                        label="Gif Category"
+                >
+                        <App.Input
+                                icon="pt-icon-tag"
+                                name="category"
+                                onChange={[Function]}
+                                placeholder="Tacos"
+                                type="string"
+                                value=""
+                        />
+                </FormGroup>
+                <FormGroup
+                        label="Number Of Images"
+                >
+                        <App.Input
+                                icon="pt-icon-media"
+                                name="numberOfImages"
+                                onChange={[Function]}
+                                placeholder="3"
+                                type="number"
+                                value={3}
+                        />
+                </FormGroup>
+                <FormGroup
+                        helperText="Time is in seconds"
+                        label="Timer"
+                >
+                        <App.Input
+                                icon="pt-icon-time"
+                                name="timer"
+                                onChange={[Function]}
+                                placeholder="10 seconds"
+                                type="number"
+                                value={10}
+                        />
+                </FormGroup>
+                <Blueprint2.Button
+                        intent="PRIMARY"
+                        large={true}
+                        onClick={[Function]}
+                        text="Search"
+                        type="submit"
+                />
+        </form>
+        <div
+                className="RandomGifsComponent__gif-container"
+        >
+                <RandomGifs
+                        gifs={Array []}
+                />
+                <span
+                        className="RandomGifsComponent__error"
+                >
+                        There was an error
+                </span>
+        </div>
+</div>,
+      "className": "RandomGifsComponent",
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <h2
+            className="RandomGifsComponent__title"
+>
+            Search Random Gifs
+</h2>,
+          <form
+            className="RandomGifsComponent__form"
+            onSubmit={[Function]}
+>
+            <FormGroup
+                        label="Gif Category"
+            >
+                        <App.Input
+                                    icon="pt-icon-tag"
+                                    name="category"
+                                    onChange={[Function]}
+                                    placeholder="Tacos"
+                                    type="string"
+                                    value=""
+                        />
+            </FormGroup>
+            <FormGroup
+                        label="Number Of Images"
+            >
+                        <App.Input
+                                    icon="pt-icon-media"
+                                    name="numberOfImages"
+                                    onChange={[Function]}
+                                    placeholder="3"
+                                    type="number"
+                                    value={3}
+                        />
+            </FormGroup>
+            <FormGroup
+                        helperText="Time is in seconds"
+                        label="Timer"
+            >
+                        <App.Input
+                                    icon="pt-icon-time"
+                                    name="timer"
+                                    onChange={[Function]}
+                                    placeholder="10 seconds"
+                                    type="number"
+                                    value={10}
+                        />
+            </FormGroup>
+            <Blueprint2.Button
+                        intent="PRIMARY"
+                        large={true}
+                        onClick={[Function]}
+                        text="Search"
+                        type="submit"
+            />
+</form>,
+          <div
+            className="RandomGifsComponent__gif-container"
+>
+            <RandomGifs
+                        gifs={Array []}
+            />
+            <span
+                        className="RandomGifsComponent__error"
+            >
+                        There was an error
+            </span>
+</div>,
+        ],
+        "className": "RandomGifsComponent__container",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Search Random Gifs",
+            "className": "RandomGifsComponent__title",
+          },
+          "ref": null,
+          "rendered": "Search Random Gifs",
+          "type": "h2",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <FormGroup
+                label="Gif Category"
+>
+                <App.Input
+                                icon="pt-icon-tag"
+                                name="category"
+                                onChange={[Function]}
+                                placeholder="Tacos"
+                                type="string"
+                                value=""
+                />
+</FormGroup>,
+              <FormGroup
+                label="Number Of Images"
+>
+                <App.Input
+                                icon="pt-icon-media"
+                                name="numberOfImages"
+                                onChange={[Function]}
+                                placeholder="3"
+                                type="number"
+                                value={3}
+                />
+</FormGroup>,
+              <FormGroup
+                helperText="Time is in seconds"
+                label="Timer"
+>
+                <App.Input
+                                icon="pt-icon-time"
+                                name="timer"
+                                onChange={[Function]}
+                                placeholder="10 seconds"
+                                type="number"
+                                value={10}
+                />
+</FormGroup>,
+              <Blueprint2.Button
+                intent="PRIMARY"
+                large={true}
+                onClick={[Function]}
+                text="Search"
+                type="submit"
+/>,
+            ],
+            "className": "RandomGifsComponent__form",
+            "onSubmit": [Function],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": <App.Input
+                  icon="pt-icon-tag"
+                  name="category"
+                  onChange={[Function]}
+                  placeholder="Tacos"
+                  type="string"
+                  value=""
+/>,
+                "label": "Gif Category",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "icon": "pt-icon-tag",
+                  "name": "category",
+                  "onChange": [Function],
+                  "placeholder": "Tacos",
+                  "type": "string",
+                  "value": "",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": <App.Input
+                  icon="pt-icon-media"
+                  name="numberOfImages"
+                  onChange={[Function]}
+                  placeholder="3"
+                  type="number"
+                  value={3}
+/>,
+                "label": "Number Of Images",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "icon": "pt-icon-media",
+                  "name": "numberOfImages",
+                  "onChange": [Function],
+                  "placeholder": "3",
+                  "type": "number",
+                  "value": 3,
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": <App.Input
+                  icon="pt-icon-time"
+                  name="timer"
+                  onChange={[Function]}
+                  placeholder="10 seconds"
+                  type="number"
+                  value={10}
+/>,
+                "helperText": "Time is in seconds",
+                "label": "Timer",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "icon": "pt-icon-time",
+                  "name": "timer",
+                  "onChange": [Function],
+                  "placeholder": "10 seconds",
+                  "type": "number",
+                  "value": 10,
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "intent": "PRIMARY",
+                "large": true,
+                "onClick": [Function],
+                "text": "Search",
+                "type": "submit",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+          ],
+          "type": "form",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <RandomGifs
+                gifs={Array []}
+/>,
+              false,
+              false,
+              <span
+                className="RandomGifsComponent__error"
+>
+                There was an error
+</span>,
+            ],
+            "className": "RandomGifsComponent__gif-container",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "gifs": Array [],
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            false,
+            false,
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "There was an error",
+                "className": "RandomGifsComponent__error",
+              },
+              "ref": null,
+              "rendered": "There was an error",
+              "type": "span",
+            },
+          ],
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": <div
+          className="RandomGifsComponent__container"
+>
+          <h2
+                    className="RandomGifsComponent__title"
+          >
+                    Search Random Gifs
+          </h2>
+          <form
+                    className="RandomGifsComponent__form"
+                    onSubmit={[Function]}
+          >
+                    <FormGroup
+                              label="Gif Category"
+                    >
+                              <App.Input
+                                        icon="pt-icon-tag"
+                                        name="category"
+                                        onChange={[Function]}
+                                        placeholder="Tacos"
+                                        type="string"
+                                        value=""
+                              />
+                    </FormGroup>
+                    <FormGroup
+                              label="Number Of Images"
+                    >
+                              <App.Input
+                                        icon="pt-icon-media"
+                                        name="numberOfImages"
+                                        onChange={[Function]}
+                                        placeholder="3"
+                                        type="number"
+                                        value={3}
+                              />
+                    </FormGroup>
+                    <FormGroup
+                              helperText="Time is in seconds"
+                              label="Timer"
+                    >
+                              <App.Input
+                                        icon="pt-icon-time"
+                                        name="timer"
+                                        onChange={[Function]}
+                                        placeholder="10 seconds"
+                                        type="number"
+                                        value={10}
+                              />
+                    </FormGroup>
+                    <Blueprint2.Button
+                              intent="PRIMARY"
+                              large={true}
+                              onClick={[Function]}
+                              text="Search"
+                              type="submit"
+                    />
+          </form>
+          <div
+                    className="RandomGifsComponent__gif-container"
+          >
+                    <RandomGifs
+                              gifs={Array []}
+                    />
+                    <span
+                              className="RandomGifsComponent__error"
+                    >
+                              There was an error
+                    </span>
+          </div>
+</div>,
+        "className": "RandomGifsComponent",
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <h2
+              className="RandomGifsComponent__title"
+>
+              Search Random Gifs
+</h2>,
+            <form
+              className="RandomGifsComponent__form"
+              onSubmit={[Function]}
+>
+              <FormGroup
+                            label="Gif Category"
+              >
+                            <App.Input
+                                          icon="pt-icon-tag"
+                                          name="category"
+                                          onChange={[Function]}
+                                          placeholder="Tacos"
+                                          type="string"
+                                          value=""
+                            />
+              </FormGroup>
+              <FormGroup
+                            label="Number Of Images"
+              >
+                            <App.Input
+                                          icon="pt-icon-media"
+                                          name="numberOfImages"
+                                          onChange={[Function]}
+                                          placeholder="3"
+                                          type="number"
+                                          value={3}
+                            />
+              </FormGroup>
+              <FormGroup
+                            helperText="Time is in seconds"
+                            label="Timer"
+              >
+                            <App.Input
+                                          icon="pt-icon-time"
+                                          name="timer"
+                                          onChange={[Function]}
+                                          placeholder="10 seconds"
+                                          type="number"
+                                          value={10}
+                            />
+              </FormGroup>
+              <Blueprint2.Button
+                            intent="PRIMARY"
+                            large={true}
+                            onClick={[Function]}
+                            text="Search"
+                            type="submit"
+              />
+</form>,
+            <div
+              className="RandomGifsComponent__gif-container"
+>
+              <RandomGifs
+                            gifs={Array []}
+              />
+              <span
+                            className="RandomGifsComponent__error"
+              >
+                            There was an error
+              </span>
+</div>,
+          ],
+          "className": "RandomGifsComponent__container",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Search Random Gifs",
+              "className": "RandomGifsComponent__title",
+            },
+            "ref": null,
+            "rendered": "Search Random Gifs",
+            "type": "h2",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <FormGroup
+                  label="Gif Category"
+>
+                  <App.Input
+                                    icon="pt-icon-tag"
+                                    name="category"
+                                    onChange={[Function]}
+                                    placeholder="Tacos"
+                                    type="string"
+                                    value=""
+                  />
+</FormGroup>,
+                <FormGroup
+                  label="Number Of Images"
+>
+                  <App.Input
+                                    icon="pt-icon-media"
+                                    name="numberOfImages"
+                                    onChange={[Function]}
+                                    placeholder="3"
+                                    type="number"
+                                    value={3}
+                  />
+</FormGroup>,
+                <FormGroup
+                  helperText="Time is in seconds"
+                  label="Timer"
+>
+                  <App.Input
+                                    icon="pt-icon-time"
+                                    name="timer"
+                                    onChange={[Function]}
+                                    placeholder="10 seconds"
+                                    type="number"
+                                    value={10}
+                  />
+</FormGroup>,
+                <Blueprint2.Button
+                  intent="PRIMARY"
+                  large={true}
+                  onClick={[Function]}
+                  text="Search"
+                  type="submit"
+/>,
+              ],
+              "className": "RandomGifsComponent__form",
+              "onSubmit": [Function],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "children": <App.Input
+                    icon="pt-icon-tag"
+                    name="category"
+                    onChange={[Function]}
+                    placeholder="Tacos"
+                    type="string"
+                    value=""
+/>,
+                  "label": "Gif Category",
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "icon": "pt-icon-tag",
+                    "name": "category",
+                    "onChange": [Function],
+                    "placeholder": "Tacos",
+                    "type": "string",
+                    "value": "",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "children": <App.Input
+                    icon="pt-icon-media"
+                    name="numberOfImages"
+                    onChange={[Function]}
+                    placeholder="3"
+                    type="number"
+                    value={3}
+/>,
+                  "label": "Number Of Images",
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "icon": "pt-icon-media",
+                    "name": "numberOfImages",
+                    "onChange": [Function],
+                    "placeholder": "3",
+                    "type": "number",
+                    "value": 3,
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "children": <App.Input
+                    icon="pt-icon-time"
+                    name="timer"
+                    onChange={[Function]}
+                    placeholder="10 seconds"
+                    type="number"
+                    value={10}
+/>,
+                  "helperText": "Time is in seconds",
+                  "label": "Timer",
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "icon": "pt-icon-time",
+                    "name": "timer",
+                    "onChange": [Function],
+                    "placeholder": "10 seconds",
+                    "type": "number",
+                    "value": 10,
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "intent": "PRIMARY",
+                  "large": true,
+                  "onClick": [Function],
+                  "text": "Search",
+                  "type": "submit",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+            ],
+            "type": "form",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <RandomGifs
+                  gifs={Array []}
+/>,
+                false,
+                false,
+                <span
+                  className="RandomGifsComponent__error"
+>
+                  There was an error
+</span>,
+              ],
+              "className": "RandomGifsComponent__gif-container",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "gifs": Array [],
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              false,
+              false,
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "There was an error",
+                  "className": "RandomGifsComponent__error",
+                },
+                "ref": null,
+                "rendered": "There was an error",
+                "type": "span",
+              },
+            ],
+            "type": "div",
+          },
+        ],
+        "type": "div",
+      },
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;
+
+exports[`<RandomGifs /> Should render with notFound message 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <RandomGifsComponent
+    category=""
+    error={false}
+    gifs={Array []}
+    loading={false}
+    notFound={true}
+    numberOfImages={3}
+    showNumberOfImages={true}
+    showTimer={true}
+    timer={10}
+/>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": <div
+        className="RandomGifsComponent__container"
+>
+        <h2
+                className="RandomGifsComponent__title"
+        >
+                Search Random Gifs
+        </h2>
+        <form
+                className="RandomGifsComponent__form"
+                onSubmit={[Function]}
+        >
+                <FormGroup
+                        label="Gif Category"
+                >
+                        <App.Input
+                                icon="pt-icon-tag"
+                                name="category"
+                                onChange={[Function]}
+                                placeholder="Tacos"
+                                type="string"
+                                value=""
+                        />
+                </FormGroup>
+                <FormGroup
+                        label="Number Of Images"
+                >
+                        <App.Input
+                                icon="pt-icon-media"
+                                name="numberOfImages"
+                                onChange={[Function]}
+                                placeholder="3"
+                                type="number"
+                                value={3}
+                        />
+                </FormGroup>
+                <FormGroup
+                        helperText="Time is in seconds"
+                        label="Timer"
+                >
+                        <App.Input
+                                icon="pt-icon-time"
+                                name="timer"
+                                onChange={[Function]}
+                                placeholder="10 seconds"
+                                type="number"
+                                value={10}
+                        />
+                </FormGroup>
+                <Blueprint2.Button
+                        intent="PRIMARY"
+                        large={true}
+                        onClick={[Function]}
+                        text="Search"
+                        type="submit"
+                />
+        </form>
+        <div
+                className="RandomGifsComponent__gif-container"
+        >
+                <RandomGifs
+                        gifs={Array []}
+                />
+                <span
+                        className="RandomGifsComponent__error"
+                >
+                        Gifs not found
+                </span>
+        </div>
+</div>,
+      "className": "RandomGifsComponent",
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <h2
+            className="RandomGifsComponent__title"
+>
+            Search Random Gifs
+</h2>,
+          <form
+            className="RandomGifsComponent__form"
+            onSubmit={[Function]}
+>
+            <FormGroup
+                        label="Gif Category"
+            >
+                        <App.Input
+                                    icon="pt-icon-tag"
+                                    name="category"
+                                    onChange={[Function]}
+                                    placeholder="Tacos"
+                                    type="string"
+                                    value=""
+                        />
+            </FormGroup>
+            <FormGroup
+                        label="Number Of Images"
+            >
+                        <App.Input
+                                    icon="pt-icon-media"
+                                    name="numberOfImages"
+                                    onChange={[Function]}
+                                    placeholder="3"
+                                    type="number"
+                                    value={3}
+                        />
+            </FormGroup>
+            <FormGroup
+                        helperText="Time is in seconds"
+                        label="Timer"
+            >
+                        <App.Input
+                                    icon="pt-icon-time"
+                                    name="timer"
+                                    onChange={[Function]}
+                                    placeholder="10 seconds"
+                                    type="number"
+                                    value={10}
+                        />
+            </FormGroup>
+            <Blueprint2.Button
+                        intent="PRIMARY"
+                        large={true}
+                        onClick={[Function]}
+                        text="Search"
+                        type="submit"
+            />
+</form>,
+          <div
+            className="RandomGifsComponent__gif-container"
+>
+            <RandomGifs
+                        gifs={Array []}
+            />
+            <span
+                        className="RandomGifsComponent__error"
+            >
+                        Gifs not found
+            </span>
+</div>,
+        ],
+        "className": "RandomGifsComponent__container",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Search Random Gifs",
+            "className": "RandomGifsComponent__title",
+          },
+          "ref": null,
+          "rendered": "Search Random Gifs",
+          "type": "h2",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <FormGroup
+                label="Gif Category"
+>
+                <App.Input
+                                icon="pt-icon-tag"
+                                name="category"
+                                onChange={[Function]}
+                                placeholder="Tacos"
+                                type="string"
+                                value=""
+                />
+</FormGroup>,
+              <FormGroup
+                label="Number Of Images"
+>
+                <App.Input
+                                icon="pt-icon-media"
+                                name="numberOfImages"
+                                onChange={[Function]}
+                                placeholder="3"
+                                type="number"
+                                value={3}
+                />
+</FormGroup>,
+              <FormGroup
+                helperText="Time is in seconds"
+                label="Timer"
+>
+                <App.Input
+                                icon="pt-icon-time"
+                                name="timer"
+                                onChange={[Function]}
+                                placeholder="10 seconds"
+                                type="number"
+                                value={10}
+                />
+</FormGroup>,
+              <Blueprint2.Button
+                intent="PRIMARY"
+                large={true}
+                onClick={[Function]}
+                text="Search"
+                type="submit"
+/>,
+            ],
+            "className": "RandomGifsComponent__form",
+            "onSubmit": [Function],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": <App.Input
+                  icon="pt-icon-tag"
+                  name="category"
+                  onChange={[Function]}
+                  placeholder="Tacos"
+                  type="string"
+                  value=""
+/>,
+                "label": "Gif Category",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "icon": "pt-icon-tag",
+                  "name": "category",
+                  "onChange": [Function],
+                  "placeholder": "Tacos",
+                  "type": "string",
+                  "value": "",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": <App.Input
+                  icon="pt-icon-media"
+                  name="numberOfImages"
+                  onChange={[Function]}
+                  placeholder="3"
+                  type="number"
+                  value={3}
+/>,
+                "label": "Number Of Images",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "icon": "pt-icon-media",
+                  "name": "numberOfImages",
+                  "onChange": [Function],
+                  "placeholder": "3",
+                  "type": "number",
+                  "value": 3,
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": <App.Input
+                  icon="pt-icon-time"
+                  name="timer"
+                  onChange={[Function]}
+                  placeholder="10 seconds"
+                  type="number"
+                  value={10}
+/>,
+                "helperText": "Time is in seconds",
+                "label": "Timer",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "icon": "pt-icon-time",
+                  "name": "timer",
+                  "onChange": [Function],
+                  "placeholder": "10 seconds",
+                  "type": "number",
+                  "value": 10,
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "intent": "PRIMARY",
+                "large": true,
+                "onClick": [Function],
+                "text": "Search",
+                "type": "submit",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+          ],
+          "type": "form",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <RandomGifs
+                gifs={Array []}
+/>,
+              false,
+              <span
+                className="RandomGifsComponent__error"
+>
+                Gifs not found
+</span>,
+              false,
+            ],
+            "className": "RandomGifsComponent__gif-container",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "gifs": Array [],
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            false,
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Gifs not found",
+                "className": "RandomGifsComponent__error",
+              },
+              "ref": null,
+              "rendered": "Gifs not found",
+              "type": "span",
+            },
+            false,
+          ],
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": <div
+          className="RandomGifsComponent__container"
+>
+          <h2
+                    className="RandomGifsComponent__title"
+          >
+                    Search Random Gifs
+          </h2>
+          <form
+                    className="RandomGifsComponent__form"
+                    onSubmit={[Function]}
+          >
+                    <FormGroup
+                              label="Gif Category"
+                    >
+                              <App.Input
+                                        icon="pt-icon-tag"
+                                        name="category"
+                                        onChange={[Function]}
+                                        placeholder="Tacos"
+                                        type="string"
+                                        value=""
+                              />
+                    </FormGroup>
+                    <FormGroup
+                              label="Number Of Images"
+                    >
+                              <App.Input
+                                        icon="pt-icon-media"
+                                        name="numberOfImages"
+                                        onChange={[Function]}
+                                        placeholder="3"
+                                        type="number"
+                                        value={3}
+                              />
+                    </FormGroup>
+                    <FormGroup
+                              helperText="Time is in seconds"
+                              label="Timer"
+                    >
+                              <App.Input
+                                        icon="pt-icon-time"
+                                        name="timer"
+                                        onChange={[Function]}
+                                        placeholder="10 seconds"
+                                        type="number"
+                                        value={10}
+                              />
+                    </FormGroup>
+                    <Blueprint2.Button
+                              intent="PRIMARY"
+                              large={true}
+                              onClick={[Function]}
+                              text="Search"
+                              type="submit"
+                    />
+          </form>
+          <div
+                    className="RandomGifsComponent__gif-container"
+          >
+                    <RandomGifs
+                              gifs={Array []}
+                    />
+                    <span
+                              className="RandomGifsComponent__error"
+                    >
+                              Gifs not found
+                    </span>
+          </div>
+</div>,
+        "className": "RandomGifsComponent",
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <h2
+              className="RandomGifsComponent__title"
+>
+              Search Random Gifs
+</h2>,
+            <form
+              className="RandomGifsComponent__form"
+              onSubmit={[Function]}
+>
+              <FormGroup
+                            label="Gif Category"
+              >
+                            <App.Input
+                                          icon="pt-icon-tag"
+                                          name="category"
+                                          onChange={[Function]}
+                                          placeholder="Tacos"
+                                          type="string"
+                                          value=""
+                            />
+              </FormGroup>
+              <FormGroup
+                            label="Number Of Images"
+              >
+                            <App.Input
+                                          icon="pt-icon-media"
+                                          name="numberOfImages"
+                                          onChange={[Function]}
+                                          placeholder="3"
+                                          type="number"
+                                          value={3}
+                            />
+              </FormGroup>
+              <FormGroup
+                            helperText="Time is in seconds"
+                            label="Timer"
+              >
+                            <App.Input
+                                          icon="pt-icon-time"
+                                          name="timer"
+                                          onChange={[Function]}
+                                          placeholder="10 seconds"
+                                          type="number"
+                                          value={10}
+                            />
+              </FormGroup>
+              <Blueprint2.Button
+                            intent="PRIMARY"
+                            large={true}
+                            onClick={[Function]}
+                            text="Search"
+                            type="submit"
+              />
+</form>,
+            <div
+              className="RandomGifsComponent__gif-container"
+>
+              <RandomGifs
+                            gifs={Array []}
+              />
+              <span
+                            className="RandomGifsComponent__error"
+              >
+                            Gifs not found
+              </span>
+</div>,
+          ],
+          "className": "RandomGifsComponent__container",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Search Random Gifs",
+              "className": "RandomGifsComponent__title",
+            },
+            "ref": null,
+            "rendered": "Search Random Gifs",
+            "type": "h2",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <FormGroup
+                  label="Gif Category"
+>
+                  <App.Input
+                                    icon="pt-icon-tag"
+                                    name="category"
+                                    onChange={[Function]}
+                                    placeholder="Tacos"
+                                    type="string"
+                                    value=""
+                  />
+</FormGroup>,
+                <FormGroup
+                  label="Number Of Images"
+>
+                  <App.Input
+                                    icon="pt-icon-media"
+                                    name="numberOfImages"
+                                    onChange={[Function]}
+                                    placeholder="3"
+                                    type="number"
+                                    value={3}
+                  />
+</FormGroup>,
+                <FormGroup
+                  helperText="Time is in seconds"
+                  label="Timer"
+>
+                  <App.Input
+                                    icon="pt-icon-time"
+                                    name="timer"
+                                    onChange={[Function]}
+                                    placeholder="10 seconds"
+                                    type="number"
+                                    value={10}
+                  />
+</FormGroup>,
+                <Blueprint2.Button
+                  intent="PRIMARY"
+                  large={true}
+                  onClick={[Function]}
+                  text="Search"
+                  type="submit"
+/>,
+              ],
+              "className": "RandomGifsComponent__form",
+              "onSubmit": [Function],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "children": <App.Input
+                    icon="pt-icon-tag"
+                    name="category"
+                    onChange={[Function]}
+                    placeholder="Tacos"
+                    type="string"
+                    value=""
+/>,
+                  "label": "Gif Category",
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "icon": "pt-icon-tag",
+                    "name": "category",
+                    "onChange": [Function],
+                    "placeholder": "Tacos",
+                    "type": "string",
+                    "value": "",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "children": <App.Input
+                    icon="pt-icon-media"
+                    name="numberOfImages"
+                    onChange={[Function]}
+                    placeholder="3"
+                    type="number"
+                    value={3}
+/>,
+                  "label": "Number Of Images",
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "icon": "pt-icon-media",
+                    "name": "numberOfImages",
+                    "onChange": [Function],
+                    "placeholder": "3",
+                    "type": "number",
+                    "value": 3,
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "children": <App.Input
+                    icon="pt-icon-time"
+                    name="timer"
+                    onChange={[Function]}
+                    placeholder="10 seconds"
+                    type="number"
+                    value={10}
+/>,
+                  "helperText": "Time is in seconds",
+                  "label": "Timer",
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "icon": "pt-icon-time",
+                    "name": "timer",
+                    "onChange": [Function],
+                    "placeholder": "10 seconds",
+                    "type": "number",
+                    "value": 10,
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "intent": "PRIMARY",
+                  "large": true,
+                  "onClick": [Function],
+                  "text": "Search",
+                  "type": "submit",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+            ],
+            "type": "form",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <RandomGifs
+                  gifs={Array []}
+/>,
+                false,
+                <span
+                  className="RandomGifsComponent__error"
+>
+                  Gifs not found
+</span>,
+                false,
+              ],
+              "className": "RandomGifsComponent__gif-container",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "gifs": Array [],
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              false,
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Gifs not found",
+                  "className": "RandomGifsComponent__error",
+                },
+                "ref": null,
+                "rendered": "Gifs not found",
+                "type": "span",
+              },
+              false,
+            ],
+            "type": "div",
+          },
+        ],
+        "type": "div",
+      },
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;
+
+exports[`<RandomGifs /> Should render without numberOfImages and Timer 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <RandomGifsComponent
+    category=""
+    error={false}
+    gifs={Array []}
+    loading={false}
+    notFound={false}
+    numberOfImages={3}
+    showNumberOfImages={false}
+    showTimer={false}
+    timer={10}
+/>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": <div
+        className="RandomGifsComponent__container"
+>
+        <h2
+                className="RandomGifsComponent__title"
+        >
+                Search Random Gifs
+        </h2>
+        <form
+                className="RandomGifsComponent__form"
+                onSubmit={[Function]}
+        >
+                <FormGroup
+                        label="Gif Category"
+                >
+                        <App.Input
+                                icon="pt-icon-tag"
+                                name="category"
+                                onChange={[Function]}
+                                placeholder="Tacos"
+                                type="string"
+                                value=""
+                        />
+                </FormGroup>
+                <Blueprint2.Button
+                        intent="PRIMARY"
+                        large={true}
+                        onClick={[Function]}
+                        text="Search"
+                        type="submit"
+                />
+        </form>
+        <div
+                className="RandomGifsComponent__gif-container"
+        >
+                <RandomGifs
+                        gifs={Array []}
+                />
+        </div>
+</div>,
+      "className": "RandomGifsComponent",
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <h2
+            className="RandomGifsComponent__title"
+>
+            Search Random Gifs
+</h2>,
+          <form
+            className="RandomGifsComponent__form"
+            onSubmit={[Function]}
+>
+            <FormGroup
+                        label="Gif Category"
+            >
+                        <App.Input
+                                    icon="pt-icon-tag"
+                                    name="category"
+                                    onChange={[Function]}
+                                    placeholder="Tacos"
+                                    type="string"
+                                    value=""
+                        />
+            </FormGroup>
+            <Blueprint2.Button
+                        intent="PRIMARY"
+                        large={true}
+                        onClick={[Function]}
+                        text="Search"
+                        type="submit"
+            />
+</form>,
+          <div
+            className="RandomGifsComponent__gif-container"
+>
+            <RandomGifs
+                        gifs={Array []}
+            />
+</div>,
+        ],
+        "className": "RandomGifsComponent__container",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Search Random Gifs",
+            "className": "RandomGifsComponent__title",
+          },
+          "ref": null,
+          "rendered": "Search Random Gifs",
+          "type": "h2",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <FormGroup
+                label="Gif Category"
+>
+                <App.Input
+                                icon="pt-icon-tag"
+                                name="category"
+                                onChange={[Function]}
+                                placeholder="Tacos"
+                                type="string"
+                                value=""
+                />
+</FormGroup>,
+              false,
+              false,
+              <Blueprint2.Button
+                intent="PRIMARY"
+                large={true}
+                onClick={[Function]}
+                text="Search"
+                type="submit"
+/>,
+            ],
+            "className": "RandomGifsComponent__form",
+            "onSubmit": [Function],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": <App.Input
+                  icon="pt-icon-tag"
+                  name="category"
+                  onChange={[Function]}
+                  placeholder="Tacos"
+                  type="string"
+                  value=""
+/>,
+                "label": "Gif Category",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "icon": "pt-icon-tag",
+                  "name": "category",
+                  "onChange": [Function],
+                  "placeholder": "Tacos",
+                  "type": "string",
+                  "value": "",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              "type": [Function],
+            },
+            false,
+            false,
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "intent": "PRIMARY",
+                "large": true,
+                "onClick": [Function],
+                "text": "Search",
+                "type": "submit",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+          ],
+          "type": "form",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <RandomGifs
+                gifs={Array []}
+/>,
+              false,
+              false,
+              false,
+            ],
+            "className": "RandomGifsComponent__gif-container",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "gifs": Array [],
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            false,
+            false,
+            false,
+          ],
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": <div
+          className="RandomGifsComponent__container"
+>
+          <h2
+                    className="RandomGifsComponent__title"
+          >
+                    Search Random Gifs
+          </h2>
+          <form
+                    className="RandomGifsComponent__form"
+                    onSubmit={[Function]}
+          >
+                    <FormGroup
+                              label="Gif Category"
+                    >
+                              <App.Input
+                                        icon="pt-icon-tag"
+                                        name="category"
+                                        onChange={[Function]}
+                                        placeholder="Tacos"
+                                        type="string"
+                                        value=""
+                              />
+                    </FormGroup>
+                    <Blueprint2.Button
+                              intent="PRIMARY"
+                              large={true}
+                              onClick={[Function]}
+                              text="Search"
+                              type="submit"
+                    />
+          </form>
+          <div
+                    className="RandomGifsComponent__gif-container"
+          >
+                    <RandomGifs
+                              gifs={Array []}
+                    />
+          </div>
+</div>,
+        "className": "RandomGifsComponent",
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <h2
+              className="RandomGifsComponent__title"
+>
+              Search Random Gifs
+</h2>,
+            <form
+              className="RandomGifsComponent__form"
+              onSubmit={[Function]}
+>
+              <FormGroup
+                            label="Gif Category"
+              >
+                            <App.Input
+                                          icon="pt-icon-tag"
+                                          name="category"
+                                          onChange={[Function]}
+                                          placeholder="Tacos"
+                                          type="string"
+                                          value=""
+                            />
+              </FormGroup>
+              <Blueprint2.Button
+                            intent="PRIMARY"
+                            large={true}
+                            onClick={[Function]}
+                            text="Search"
+                            type="submit"
+              />
+</form>,
+            <div
+              className="RandomGifsComponent__gif-container"
+>
+              <RandomGifs
+                            gifs={Array []}
+              />
+</div>,
+          ],
+          "className": "RandomGifsComponent__container",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Search Random Gifs",
+              "className": "RandomGifsComponent__title",
+            },
+            "ref": null,
+            "rendered": "Search Random Gifs",
+            "type": "h2",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <FormGroup
+                  label="Gif Category"
+>
+                  <App.Input
+                                    icon="pt-icon-tag"
+                                    name="category"
+                                    onChange={[Function]}
+                                    placeholder="Tacos"
+                                    type="string"
+                                    value=""
+                  />
+</FormGroup>,
+                false,
+                false,
+                <Blueprint2.Button
+                  intent="PRIMARY"
+                  large={true}
+                  onClick={[Function]}
+                  text="Search"
+                  type="submit"
+/>,
+              ],
+              "className": "RandomGifsComponent__form",
+              "onSubmit": [Function],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "children": <App.Input
+                    icon="pt-icon-tag"
+                    name="category"
+                    onChange={[Function]}
+                    placeholder="Tacos"
+                    type="string"
+                    value=""
+/>,
+                  "label": "Gif Category",
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "icon": "pt-icon-tag",
+                    "name": "category",
+                    "onChange": [Function],
+                    "placeholder": "Tacos",
+                    "type": "string",
+                    "value": "",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                "type": [Function],
+              },
+              false,
+              false,
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "intent": "PRIMARY",
+                  "large": true,
+                  "onClick": [Function],
+                  "text": "Search",
+                  "type": "submit",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+            ],
+            "type": "form",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <RandomGifs
+                  gifs={Array []}
+/>,
+                false,
+                false,
+                false,
+              ],
+              "className": "RandomGifsComponent__gif-container",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "gifs": Array [],
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              false,
+              false,
+              false,
+            ],
+            "type": "div",
+          },
+        ],
+        "type": "div",
+      },
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;

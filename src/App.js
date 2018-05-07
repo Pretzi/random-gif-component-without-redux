@@ -14,14 +14,20 @@ class RandomGifsComponent extends Component {
       category,
       timer,
       numberOfImages,
-      gifs
+      gifs,
+      loading,
+      error,
+      notFound
     } = this.props;
 
     this.state = {
       category,
       timer,
       numberOfImages,
-      gifs
+      loading,
+      gifs,
+      error,
+      notFound
     };
 
     this.handleSubmit = this.handleSubmit.bind(this);
@@ -204,7 +210,10 @@ RandomGifsComponent.defaultProps = {
   timer: 10,
   showNumberOfImages: true,
   showTimer: true,
-  gifs: []
+  gifs: [],
+  loading: false,
+  error: false,
+  notFound: false
 };
 
 export default RandomGifsComponent;
