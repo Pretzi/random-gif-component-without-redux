@@ -1,0 +1,249 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<RandomGifs /> Should render 3 images  1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <RandomGifs
+    gifs={
+        Array [
+            Object {
+              "image_url": "1",
+            },
+            Object {
+              "image_url": "2",
+            },
+            Object {
+              "image_url": "3",
+            },
+          ]
+    }
+/>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <div
+          className="RandomGifs__img"
+          style={
+                    Object {
+                              "backgroundImage": "url(1)",
+                            }
+          }
+/>,
+        <div
+          className="RandomGifs__img"
+          style={
+                    Object {
+                              "backgroundImage": "url(2)",
+                            }
+          }
+/>,
+        <div
+          className="RandomGifs__img"
+          style={
+                    Object {
+                              "backgroundImage": "url(3)",
+                            }
+          }
+/>,
+      ],
+      "className": "RandomGifs__container",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": "0",
+        "nodeType": "host",
+        "props": Object {
+          "className": "RandomGifs__img",
+          "style": Object {
+            "backgroundImage": "url(1)",
+          },
+        },
+        "ref": null,
+        "rendered": null,
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": "1",
+        "nodeType": "host",
+        "props": Object {
+          "className": "RandomGifs__img",
+          "style": Object {
+            "backgroundImage": "url(2)",
+          },
+        },
+        "ref": null,
+        "rendered": null,
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": "2",
+        "nodeType": "host",
+        "props": Object {
+          "className": "RandomGifs__img",
+          "style": Object {
+            "backgroundImage": "url(3)",
+          },
+        },
+        "ref": null,
+        "rendered": null,
+        "type": "div",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <div
+            className="RandomGifs__img"
+            style={
+                        Object {
+                                    "backgroundImage": "url(1)",
+                                  }
+            }
+/>,
+          <div
+            className="RandomGifs__img"
+            style={
+                        Object {
+                                    "backgroundImage": "url(2)",
+                                  }
+            }
+/>,
+          <div
+            className="RandomGifs__img"
+            style={
+                        Object {
+                                    "backgroundImage": "url(3)",
+                                  }
+            }
+/>,
+        ],
+        "className": "RandomGifs__container",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": "0",
+          "nodeType": "host",
+          "props": Object {
+            "className": "RandomGifs__img",
+            "style": Object {
+              "backgroundImage": "url(1)",
+            },
+          },
+          "ref": null,
+          "rendered": null,
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": "1",
+          "nodeType": "host",
+          "props": Object {
+            "className": "RandomGifs__img",
+            "style": Object {
+              "backgroundImage": "url(2)",
+            },
+          },
+          "ref": null,
+          "rendered": null,
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": "2",
+          "nodeType": "host",
+          "props": Object {
+            "className": "RandomGifs__img",
+            "style": Object {
+              "backgroundImage": "url(3)",
+            },
+          },
+          "ref": null,
+          "rendered": null,
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;
+
+exports[`<RandomGifs /> Should render empty  1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <RandomGifs
+    gifs={Array []}
+/>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [],
+      "className": "RandomGifs__container",
+    },
+    "ref": null,
+    "rendered": Array [],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [],
+        "className": "RandomGifs__container",
+      },
+      "ref": null,
+      "rendered": Array [],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;
