@@ -8,12 +8,19 @@
     "react": "^16.3.2",
     "react-dom": "^16.3.2",
     "react-scripts": "1.1.4",
-    "react-transition-group": "^2.3.1"
+    "react-transition-group": "^2.3.1",
+    "enzyme": "^3.3.0",
+    "enzyme-adapter-react-16": "^1.1.1",
+    "jest-enzyme": "^6.0.0"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "compile": "NODE_ENV=production babel src --out-dir lib --copy-files"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0"
   }
 }
