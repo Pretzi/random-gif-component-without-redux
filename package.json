@@ -1,7 +1,6 @@
 {
   "name": "appcalister-component-no-redux",
   "version": "0.1.0",
-  "private": true,
   "dependencies": {
     "@blueprintjs/core": "^2.3.1",
     "axios": "^0.18.0",
