@@ -24,6 +24,23 @@ class RandomGifsComponent extends Component {
     };
   }
 
+  handleInputChange(e) {
+    this.setState({
+      [e.target.name]: e.target.value
+    });
+  }
+
+  handleSubmit(e) {
+    e.preventDefault();
+
+    const {
+      category,
+      numberOfImages,
+      timer
+    } = this.state;
+
+  }
+
   render() {
     const {
       gifs,
