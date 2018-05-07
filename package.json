@@ -1,5 +1,5 @@
 {
-  "name": "appcalister-component",
+  "name": "appcalister-component-no-redux",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
